@@ -1,3 +1,50 @@
 .portfolio-summary-container {
+    background-color: rgb(234, 231, 231);
+    width: 60%;
+    margin: 0 auto;
+}
 
+.portfolio-value-wrapper {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    margin: 0 auto;
+}
+
+.portfolio-value-display {
+    font-weight: bold;
+    font-size: 2rem;
+    margin-top: 0;
+}
+
+.portfolio-daily-value {
+    display: flex;
+    color:green
+}
+
+.portfolio-daily-negative {
+    color: red
+}
+
+.portfolio-daily-flat {
+    color:grey
+}
+
+.portfolio-daily-trending {
+    margin-top: 2rem;
+    margin-right: 1rem;
+}
+
+.portfolio-summarry-refresh {
+    width: 50px;
+    margin: 0 auto;
+}
+
+.security-display {
+    display: flex;
+}
+
+.security-display-container{
+    display: flex;
+    justify-content: space-around;
 }
